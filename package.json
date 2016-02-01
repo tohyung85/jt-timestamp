@@ -1,0 +1,19 @@
+{
+  "name": "jt-timestamp",
+  "version": "1.0.0",
+  "description": "FCC timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "FCC",
+    "timestamp"
+  ],
+  "author": "Joshua Tan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.4"
+  }
+}
