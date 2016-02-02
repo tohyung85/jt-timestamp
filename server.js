@@ -5,8 +5,8 @@ var mongo = require('mongodb').MongoClient;
 var routes = require('./app/routes/index.js');
 
 var app = express();
-var port = process.env.PORT || 8080;
-var dbUrl = 'mongodb://localhost:27017/jt-timestamp';
+var port = 3000;
+var dbUrl = 'mongodb://heroku_ll42fnqj:ffqjc4h0rsk9o07hcvthdhb05p@ds055515.mongolab.com:55515/heroku_ll42fnqj';
 
 mongo.connect(dbUrl, function(err, db){
 	if (err) {
